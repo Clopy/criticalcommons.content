@@ -35,7 +35,9 @@ setup(name='criticalcommons.content',
       zip_safe=False,
       install_requires=[
           'setuptools',
-          # -*- Extra requirements: -*-
+          'z3c.relationfield',
+          'plone.namedfile',
+          'plone.app.textfield',
       ],
       extras_require={'test': ['plone.app.testing']},
       entry_points="""
